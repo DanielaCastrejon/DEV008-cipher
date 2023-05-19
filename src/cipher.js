@@ -35,8 +35,8 @@ const cipher = {
       for (let i = 0; i < texto.length; i++) {
         let vuelta; 
         //console.log({i})
-        if ( texto.charCodeAt(i) === 32){
-          vuelta = 32 ;
+        if ( texto.charCodeAt(i) - desplazamiento +65>32){
+          vuelta = " ";
         }
         if (texto.charCodeAt(i) - desplazamiento -65>0){
           vuelta = (texto.charCodeAt(i) - numDesplaza)
