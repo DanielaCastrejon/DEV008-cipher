@@ -1,48 +1,98 @@
-/*body{
-    background-image: url("https://cdn.dribbble.com/users/1030587/screenshots/2417829/media/393116fd8686d6ab6911eca0950b3f35.png");
+body{
+    background-image: url("https://cdn-media-1.freecodecamp.org/images/1*i1wUMam8Rgkq-XMwmu7YlA.png");
     background-repeat:unset;
     background-size:cover;
     background-position: auto;
     font-weight: 500;
+    opacity: 0,9;
 
 
+}
+
+main{
+    text-align: center;
 }
     
 h1 {
 
     position: relative;
-    background-color: rgb(92, 170, 172);
+    background-color: #e9dda9;
     font-family: verdana;
     font-size: 40px;
     text-align: center;
-    padding: 25px 50px;
-    
-
-
     padding: 50px;
     color: rgb(0, 0, 0);
     text-transform: uppercase;
+    opacity: 0.6;
+    box-shadow: 0 8px 16px 0 rgb(2, 2, 2);
     
 }
 
+
+
 h3{
+    background-color: #e9dda9;
     position: relative;
-    background-color: rgb(92, 170, 172);
     font-family: verdana;
     font-size: 40px;
     text-align: center;
-    padding: 25px 50px;
-    position:relative;
-    background-color: rgb(92, 170, 172);
-    padding: 30px;
     font-size: 40px;
-    color: rgb(0, 0, 0);
-    text-align: center;
- }
-
- button{
-    background-color: white;
     color: black;
-    border: 2px solid #4CAF50;
+    text-align: center;
+    opacity: 0.6;
+    box-shadow: 0 8px 16px 0 rgb(2, 2, 2);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
  }
 
+
+ 
+
+ 
+button{
+    padding: 16px;
+    background-color: rgb(68, 68, 68);
+    border-radius: 12px;
+    color: rgb(244, 244, 244);
+    box-shadow: 0 8px 16px 0 rgb(115, 112, 112), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 250px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.9;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+ input{
+    width: 500px;
+    padding: 80px;
+    border: 5px solid gray;
+    margin: 0;
+    font-family: verdana;
+    font-size: 40px;
+    text-align:center;
+
+ }
+
+ .numero{
+   
+
+    
+ }
+
+ .text{
+    position: relative;
+    font-family: verdana;
+    font-size: 40px;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    opacity: 0.9;
+    box-shadow: 0 8px 16px 0 rgb(2, 2, 2);
+ }
+ 
